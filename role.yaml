@@ -1,0 +1,9 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: default
+  name: users-rw
+rules:
+- apiGroups: ["idm.micze.io"]
+  resources: ["*"]
+  verbs: ["*"]

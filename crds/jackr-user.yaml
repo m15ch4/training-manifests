@@ -1,0 +1,12 @@
+apiVersion: idm.micze.io/v1
+kind: User
+metadata:
+  name: jack
+  namespace: default
+spec:
+  username: jackr
+  firstname: Jack
+  lastname: Reacher
+  password: VMw@re1!
+  age: 44
+  role: admin
